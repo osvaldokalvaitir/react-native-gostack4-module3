@@ -14,20 +14,26 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
   },
+  todoContainer: {
+    flexDirection: 'row',
+  },
 });
 
-const TodoList = ({ todos, addTodo }) => {
-  return (
-    <View style={styles.container}>
-      {todos.map(todo => (
-        <Text key={todo.id}>{todo.text}</Text>
-      ))}
-      <TouchableOpacity onPress={() => { addTodo('Fazer café novamente') }}>
-        <Text>Adicionar todo</Text>
-      </TouchableOpacity>
-    </View>
-  );
-};
+const TodoList = ({ todos, addTodo, removeTodo }) => (
+  <View style={styles.container}>
+    {todos.map(todo => (
+      <View key={todo.id} style={styles.todoContainer}>
+        <Text>{todo.text}</Text>
+        <TouchableOpacity onPress={() => { removeTodo(todo.id); }}>
+          <Text>Excluir</Text>
+        </TouchableOpacity>
+      </View>
+    ))}
+    <TouchableOpacity onPress={() => { addTodo('Fazer café novamente'); }}>
+      <Text>Adicionar todo</Text>
+    </TouchableOpacity>
+  </View>
+);
 
 TodoList.propTypes = {
   todos: PropTypes.arrayOf(PropTypes.shape({
@@ -35,6 +41,7 @@ TodoList.propTypes = {
     text: PropTypes.string,
   })).isRequired,
   addTodo: PropTypes.func.isRequired,
+  removeTodo: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = state => ({
