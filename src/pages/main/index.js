@@ -1,6 +1,16 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, StatusBar } from 'react-native';
 
-const Main = () => <View />;
+import styles from './styles';
+
+const Main = () => (
+  <View style={styles.container}>
+    <StatusBar barStyle="light-content" />
+  </View>
+);
+
+Main.navigationOptions = {
+  header: null,
+};
 
 export default Main;
