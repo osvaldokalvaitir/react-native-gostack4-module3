@@ -1,15 +1,42 @@
-import React from 'react';
-import { View } from 'react-native';
+import React, { Component } from 'react';
+import { View, Text, FlatList } from 'react-native';
 
-import { colors } from '~/styles';
+import styles from './styles';
 
-const Favorites = () => <View />;
+import FavoriteItem from './components/FavoriteItem';
 
-Favorites.navigationOptions = {
-  title: 'Meus favoritos',
-  headerStyle: {
-    backgroundColor: colors.primaryDark,
-  },
-};
+export default class Favorites extends Component {
+  static navigationOptions = {
+    title: 'Meus favoritos',
+  };
 
-export default Favorites;
+  state = {
+    favorites: [
+      {
+        id: 92505492,
+        name: 'rocketseat.com.br',
+        full_name: 'RocketSeat/rocketseat.com.br',
+      },
+    ],
+  };
+
+  renderList = () => (
+    <FlatList
+      data={this.state.favorites}
+      keyExtractor={item => String(item.id)}
+      renderItem={({ item }) => <FavoriteItem favorite={item} />}
+    />
+  );
+
+  render() {
+    return (
+      <View style={styles.container}>
+        {!this.state.favorites.length ? (
+          <Text style={styles.empty}>Nenhum favorito adicionado</Text>
+        ) : (
+          this.renderList()
+        )}
+      </View>
+    );
+  }
+}
