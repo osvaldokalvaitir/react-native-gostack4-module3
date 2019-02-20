@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 
 import styles from './styles';
+import { colors } from '~/styles';
 
 export default class Main extends Component {
   static navigationOptions = {
@@ -17,7 +18,7 @@ export default class Main extends Component {
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <StatusBar barStyle="light-content" />
+        <StatusBar backgroundColor={colors.primaryDark} barStyle="light-content" />
 
         <View style={styles.content}>
           <Text style={styles.title}>Gitmark</Text>
