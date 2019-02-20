@@ -13,9 +13,11 @@ export default class Favorites extends Component {
   state = {
     favorites: [
       {
-        id: 92505492,
         name: 'rocketseat.com.br',
-        full_name: 'RocketSeat/rocketseat.com.br',
+        owner: {
+          avatar_url: 'https://avatars0.githubusercontent.com/u/28929274?v=4',
+        },
+        description: 'Tire sua ideia do papel e dê vida à sua startup',
       },
     ],
   };
