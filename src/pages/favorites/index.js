@@ -14,9 +14,11 @@ class Favorites extends Component {
   };
 
   static propTypes = {
-    favorites: PropTypes.arrayOf(PropTypes.shape({
-      id: PropTypes.number,
-    })).isRequired,
+    favorites: PropTypes.arrayOf(
+      PropTypes.shape({
+        id: PropTypes.number,
+      }),
+    ).isRequired,
   };
 
   renderList = () => (
@@ -41,7 +43,7 @@ class Favorites extends Component {
 }
 
 const mapStateToProps = state => ({
-  favorites: state.favorites,
+  favorites: state.favorites.data,
 });
 
 export default connect(mapStateToProps)(Favorites);
