@@ -14,13 +14,11 @@ Aplicação Gitmark usando React Native, ESLint, EditorConfig, Babel Root Import
 
 ## Índice
 
-- [Telas](#telas)
+- [Capturas de Tela](#capturas-de-tela)
 
   - [Principal](#principal)
 
   - [Favoritos](#favoritos)
-
-- [Rotas](#rotas)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -30,11 +28,15 @@ Aplicação Gitmark usando React Native, ESLint, EditorConfig, Babel Root Import
 
   - [Execução do Projeto](#execução-do-projeto)
 
+- [Utilizados no Projeto](#utilizados-no-projeto)
+
   - [Bibliotecas](#bibliotecas)
 
-  - [Outras Ferramentas](#outras-ferramentas)
+  - [APIs](#apis)
 
-## Telas
+  - [Ferramentas](#ferramentas)
+
+## Capturas de Tela
 
 ### Principal
 
@@ -45,10 +47,6 @@ Esta é a primeira tela, onde deve ser informado um usuário e um repositório e
 
 ![Favorites](/assets/favorites.png)
 Nesta tela estão todos os repositórios do GitHub favoritados pelo usuário, podendo também voltar para a tela principal.
-
-## Rotas
-
-- Busca um repositório do GitHub
 
 ## Desenvolvimento
 
@@ -63,6 +61,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 ### Execução do Projeto
 
 Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga a Execução de Projeto.
+
+## Utilizados no Projeto
 
 ### Bibliotecas
 
@@ -102,6 +102,16 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [Redux-Saga](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/redux-saga.md)
 
-### Outras Ferramentas
+### APIs
+
+- **[GitHub](https://api.github.com)**
+
+  - **Rotas**
+
+    - Usuários
+
+      - Busca dados de um repositório pertencente a um usuário
+
+### Ferramentas
 
 - [Reactotron](https://github.com/osvaldokalvaitir/projects-settings/blob/master/inspector/reactotron.md)
