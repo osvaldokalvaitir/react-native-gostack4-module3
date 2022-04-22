@@ -1,4 +1,14 @@
-# React Native - Módulo 3
+<h1 align="center">
+    <img alt="GoStack" src="/.github/assets/logo.png" width="200px" />
+</h1>
+
+<h3 align="center">
+  React Native - GoStack 4 Module 3
+</h3>
+
+<p align="center">Gitmark Application using React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks and Reactotron</p>
+
+
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-modulo3/blob/master/LICENSE)
 ![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-modulo3.svg)
@@ -10,7 +20,6 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação Gitmark usando React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks e Reactotron.
 
 ## Índice
 
