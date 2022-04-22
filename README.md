@@ -28,7 +28,6 @@
   <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
 </p>
 
-
 ## :iphone: Demo
 
 ![Demo](/.github/assets/demo.gif)
