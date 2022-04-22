@@ -1,24 +1,32 @@
 <h1 align="center">
-    <img alt="GoStack" src="/.github/assets/logo.png" width="200px" />
+    <img src="/.github/assets/logo.png"
+    width="200px"
+    alt="Logo" />
 </h1>
 
 <h3 align="center">
   React Native - GoStack 4 Module 3
 </h3>
 
-<p align="center">Gitmark Application using React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks and Reactotron</p>
+<p align="center">
+  Gitmark Application using React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks and Reactotron
+</p>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-gostack4-module3.svg?color=00A83A">
+
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-gostack4-module3.svg?color=00A83A">
+
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
 
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-modulo3/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-modulo3.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-modulo3.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-modulo3.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-modulo3.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-modulo3.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-modulo3.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+
 
 
 ## Índice
