@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  :octocat: Gitmark Application using React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks and Reactotron
+  :octocat: Gitmark Application using React Native, ESLint, EditorConfig, Babel Root Import, Babel Module Resolver, React Navigation, Color, Redux, Redux-Saga, Ducks, Reactotron and consuming the features of the GitHub API
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-installation-and-execution">Installation and execution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
 </p>
 
 
@@ -33,7 +33,26 @@
 
 ![Demo](/.github/assets/demo.gif)
 
-## :wrench: Installation and execution
+## :wrench: Install and run
+
+```sh
+--Open terminal--
+
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-gostack4-module3
+
+# Entry in folder
+cd react-native-gostack4-module3
+
+# Install deps with npm or yarn
+npm install | yarn
+
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
+
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
 ## :memo: License
 
