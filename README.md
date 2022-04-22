@@ -25,11 +25,13 @@
 </p>
 
 <p align="center">
-  <a href="#mobile_phone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-installation-and-execution">Installation and execution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-installation-and-execution">Installation and execution</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
 </p>
 
 
-## :mobile_phone: Demo :iphone:
+## :iphone: Demo
+
+![Demo](/.github/assets/demo.gif)
 
 ## :wrench: Installation and execution
 
