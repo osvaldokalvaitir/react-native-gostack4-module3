@@ -35,9 +35,9 @@
 
 ## :wrench: Install and run
 
-```sh
--- Open terminal --
+Open terminal:
 
+```sh
 # Clone this repo
 git clone https://github.com/osvaldokalvaitir/react-native-gostack4-module3
 
