@@ -29,7 +29,7 @@
 </p>
 
 
-## :mobile_phone: Demo
+## :mobile_phone: Demo :iphone:
 
 ## :wrench: Installation and execution
 
