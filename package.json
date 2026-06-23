@@ -22,7 +22,7 @@
     "redux-saga": "^1.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
+    "@babel/core": "^7.29.6",
     "@babel/runtime": "^7.26.10",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.7.1",
